@@ -18,7 +18,7 @@ export default class Home extends React.Component {
         color="black"
         style={styles.search}
         iconContent={iconCamera}
-        placeholder="What are you looking for?"
+        placeholder="What are you looking for สวัสดีครับ ? "
         onFocus={() => navigation.navigate('Pro')}
       />
     )

@@ -40,8 +40,11 @@ export default class Components extends React.Component {
             </Button>
           </Block>
           <Block center>
-            <Button shadowless color="info" style={[styles.button, styles.shadow]}>
+            {/* <Button shadowless color="info" style={[styles.button, styles.shadow]}>
               INFO
+            </Button> */}
+            <Button shadowless color="info" style={[styles.button, styles.shadow]}>
+            Qrcode
             </Button>
           </Block>
           <Block center>

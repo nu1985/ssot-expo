@@ -25,7 +25,7 @@ function CustomDrawerContent({
     "Profile",
     "Settings",
     "Components"
-  ];
+  ];  // "Qr",
   return (
     <Block
       style={styles.container}
