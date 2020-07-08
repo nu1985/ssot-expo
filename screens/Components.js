@@ -192,6 +192,7 @@ export default class Components extends React.Component {
               search
               title="Title"
               tabTitleLeft="Option 1"
+			  tabTitleCenter="Option 1"
               tabTitleRight="Option 2"
               navigation={this.props.navigation} />
           </Block>

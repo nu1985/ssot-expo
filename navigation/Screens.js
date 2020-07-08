@@ -40,7 +40,7 @@ function ProfileStack(props) {
             <Header
               white
               transparent
-              title="Profile"
+              title="สสอท."
               scene={scene}
               navigation={navigation}
             />

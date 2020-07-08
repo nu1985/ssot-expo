@@ -10,7 +10,6 @@ export default class Home extends React.Component {
   renderSearch = () => {
     const { navigation } = this.props;
     const iconCamera = <Icon size={16} color={theme.COLORS.MUTED} name="zoom-in" family="material" />
-
     return (
       <Input
         right
@@ -22,7 +21,32 @@ export default class Home extends React.Component {
       />
     )
   }
-  
+  renderNavigation = () => {
+    return (
+      <Block flex style={styles.group}>
+        <Text bold size={16} style={styles.title}>Navigation</Text>
+        <Block>
+          <Block style={{ marginBottom: theme.SIZES.BASE }}>
+            <Header back title="Title" navigation={this.props.navigation} />
+          </Block>
+
+          <Block style={{ marginBottom: theme.SIZES.BASE }}>
+            <Header search title="Title" navigation={this.props.navigation} />
+          </Block>
+
+          <Block style={{ marginBottom: theme.SIZES.BASE }}>
+            <Header
+              tabs
+              search
+              title="Title"
+              tabTitleLeft="Option 1"
+              tabTitleRight="Option 2"
+              navigation={this.props.navigation} />
+          </Block>
+        </Block>
+      </Block>
+    )
+  }
   renderTabs = () => {
     const { navigation } = this.props;
 

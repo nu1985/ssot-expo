@@ -18,14 +18,10 @@ function CustomDrawerContent({
   const insets = useSafeArea();
   const screens = [
     "Home",
-    "Woman",
-    "Man",
-    "Kids",
-    "New Collection",
     "Profile",
     "Settings",
     "Components"
-  ];  // "Qr",
+  ]; 
   return (
     <Block
       style={styles.container}
