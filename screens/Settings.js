@@ -70,7 +70,7 @@ export default class Settings extends React.Component {
           ListHeaderComponent={
             <Block style={styles.title}>
               <Text bold center size={theme.SIZES.BASE} style={{ paddingBottom: 5 }}>
-                Recommended Settings
+                Recommended Settings:setting.js
               </Text>
               <Text center muted size={12}>
                 These are the most important settings
